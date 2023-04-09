@@ -19,3 +19,31 @@ print("Este es el valor de:", my_bool_variable)
 
 # Funciones del sistema
 print(len(my_int_to_str_variable))
+
+# Variables en una sola línea
+name, surname, alias, age = "Dante", "Miron", "Kabe", 27
+print("Me llamo:",name,surname,". Mi edad es:",age,alias)
+
+# Inputs
+first_name = input ('What is your name : ')
+age = input ('How old are you ? ')
+
+print(first_name)
+print(age)
+
+# Cambiamos su tipo 
+name = 35
+age = "Dante"
+print(name)
+print(age)
+
+# ¿Forzamos el tipo?
+
+address: str = "Mi dirección"
+address = True
+address = 5
+address = 1.2 
+print(type(address))
+
+
+ 
