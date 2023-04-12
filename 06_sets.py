@@ -20,3 +20,10 @@ print(my_other_set)
 
 print("DanteDev" in my_other_set)
 print("DanteDe" in my_other_set)
+
+my_other_set.remove("Miron")
+print(my_other_set)
+
+my_other_set.clear()
+print(len(my_other_set))
+
