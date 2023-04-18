@@ -34,3 +34,29 @@ print(my_dict)
 
 del my_dict["Nombre"]
 print(my_dict)
+
+print("Apellido" in my_dict)
+
+print(my_dict.items())
+print(my_dict.keys())
+print(my_dict.values())
+
+
+my_list = ["River","Plate"]
+
+
+my_new_dict = dict.fromkeys(("Apellido", "Edad"))
+print(my_new_dict)
+
+my_new_dict = dict.fromkeys(my_list)
+print(my_new_dict)
+
+my_new_dict = dict.fromkeys(my_dict)
+print(my_new_dict)
+
+my_new_dict = dict.fromkeys(my_dict, ("Dante", "Miron"))
+print(my_new_dict)
+
+print(list(my_new_dict))
+print(tuple(my_new_dict))
+print(set(my_new_dict))
