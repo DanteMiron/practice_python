@@ -72,8 +72,8 @@ def fibonacci(n):
 if __name__ == "__main__":
 
     lista = [5,4,3,7,8,96,5,6,7,4,1,3,5,6,1]
-    lista_ordenada = qsort(lista)
-
+    #lista_ordenada = qsort(lista)
+    lista_ordenada = sorted(lista)
     print(lista_ordenada)
     print(fibonacci(6))
     
